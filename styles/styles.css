@@ -1,3 +1,62 @@
 body{
-    background-color:rgb(194, 194, 194);
+    background: linear-gradient(to right, rgb(35, 109, 247), rgb(90, 227, 252));
+    font-family: Arial, sans-serif;
+}
+
+
+.card{
+    position:absolute;
+    max-width: 25em;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    justify-content: center;
+    align-items: center;
+
+    padding:20px;
+    box-shadow: 2px 2px 5px black;
+    border-radius:10px;
+    color: white;
+    background-color: rgb(39, 39, 39);
+}
+
+.grid-container{
+
+    margin:0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    height:auto;
+    width:100%;
+}
+
+.displayExchange{
+    font-size: 14px;
+}
+
+select{
+    height: 25px;
+    width:100%;
+}
+
+.exchangeButton{
+    width:100%;
+
+    font-size: 15px;
+    font-weight: bolder;
+    height: 40px;
+    border:none;
+    border-radius: 10px;
+    background-color:rgb(37, 201, 223);
+}
+
+.currencyInput{
+    width: 100%;
+
+    color:whitesmoke;
+    font-size: 15px;
+    height:40px;
+    border:none;
+    border-radius: 10px;
+    background-color: rgb(87, 87, 87);
 }
