@@ -21,7 +21,6 @@ body{
 }
 
 .grid-container{
-
     margin:0;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -37,6 +36,8 @@ body{
 select{
     height: 25px;
     width:100%;
+    background-color: rgb(87, 87, 87);
+    color: white;
 }
 
 .exchangeButton{
