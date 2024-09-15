@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Currency Exchange App</title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
@@ -11,7 +11,7 @@
     <div class="card">
             <h1>Currency Exchange</h1>
             <p>Enter Amount</p>
-            <input type="text" placeholder="0.00" class="currencyInput">
+            <input type="text" placeholder="0.00" step = "0.01" class="inputBox inputBox-js">
             
             <div class="grid-container">
                 <div>
@@ -26,10 +26,10 @@
                 </div>
             </div>
         
-            <br>
-            <p class="displayExchange">1 USD = 0.91 EUR</p>
+            
+            <p class="displayExchange displayExchange-js">1 USD = 0.91 EUR</p>
 
-            <button class="exchangeButton">Exchange</button>
+            <button class="exchangeButton exchangeButton-js">Exchange</button>
         
     </div>
 </body>
