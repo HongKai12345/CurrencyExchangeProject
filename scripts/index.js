@@ -62,9 +62,6 @@ exchangeButton.addEventListener('click',()=>{
     }
     else{
         displayRates(selectBox1Value,selectBox2Value,inputValue);
-        // console.log(inputValue);
-        // console.log(selectBox1Value);
-        // console.log(selectBox2Value);
     }
 });
 
